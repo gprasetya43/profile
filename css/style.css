@@ -23,7 +23,7 @@ nav{
 	height: 60px;
 	padding: 0 1rem;
 	background-color: blue;
-	color: yellow;
+	color: white;
 	position: fixed;
 }
 
@@ -69,4 +69,27 @@ li{
 #gambar img{
 	width: 100%;
 	border-radius: 10px;
+}
+
+.colum{
+	float: left;
+	width: 33.33%;
+
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.navbar {
+	width: 100%;
+	height:30px; 
+	padding: 0 1rem;
+  background-color: blue;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  
 }
